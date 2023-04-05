@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho{
+    background-image: linear-gradient(#BC0CC4, #D6B0C3);
+    color: #FFFFFF;
+    display: flex;
+}
+.cabeçalho-logo{
+    width: 10%;
+    height: 10%;
+    justify-content: space-around;
+}
+
+.cabeçalho-escrito {
+    font-size: 40px;
+    margin: 70px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.cabeçalho-lista {
+    font-size: 22px;
+    margin:10px;
+    padding:20px;
+    display: inline-block;
+}
