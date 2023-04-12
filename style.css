@@ -6,23 +6,60 @@
     background-image: linear-gradient(#BC0CC4, #D6B0C3);
     color: #FFFFFF;
     display: flex;
+    justify-content: center;
+    padding: 1px;
 }
 .cabeçalho-logo{
     width: 10%;
-    height: 10%;
+    height: 5%;
     justify-content: space-around;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 .cabeçalho-escrito {
-    font-size: 40px;
-    margin: 70px;
-    display: inline-flex;
+    font-size: 25px;
+    margin: 80px;
+    display: flex;
+    justify-content: center
     text-align: center;
+    padding-top: 20px;
+       
 }
 
 .cabeçalho-lista {
-    font-size: 22px;
-    margin:10px;
-    padding:20px;
-    display: inline-block;
+    font-size: 20px;
+    margin:20px;
+    padding:10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 150px;
+    
+}
+
+.cabeçalho-itens {
+    font-size: 20px;
+    margin: 20px;
+    height: 2px;
+}
+
+.escola {
+    background-color:#A47452 ;
+   
+    height: 450px ;
+
+}
+
+.escola  {
+    text-align: center;
+    color: #0000;
+    font-size:20px;
+    padding-top: 150px;
+}
+
+.imagem-corpo-texto {
+    width: 15%;
+    height: 80%;
+    justify-content: space-around;
+    padding-left: 10px;
 }
